@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(70, 104, 216);
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgb(70, 154, 219);
+}
+.nav-list li {
+    list-style: none;
+    padding-left: 100px;
+    
+}
+.nav-list a {
+    text-decoration: none;
+    color: white;
+
+}
+.enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+.enter h1 {
+    font-size: 10rem;
+}
